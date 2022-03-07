@@ -15,7 +15,7 @@ def predict(args_dict):
     df = pd.DataFrame(tran, index=[0])
     prediction = pipeline.predict(df)[0]
 
-    return {'prediction': prediction}
+    return str({'prediction': prediction})
 
 
 
