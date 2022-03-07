@@ -1,16 +1,6 @@
 import json
 from flask import Flask, jsonify, request
-import pandas as pd
-import cloudpickle as cp
-
-# Load your model.
-pipeline = cp.load(open('DecisionTree.pkl', 'rb'))
-
-
-def isFraudTran(tran):
-    df = pd.DataFrame(tran, index=[0])
-    isFraud = pipeline.predict(df)[0]
-    return str({ 'isFraud': isFraud })
+from prediction import predict
 
 application = Flask(__name__)
 
@@ -25,4 +15,4 @@ def status():
 def create_prediction():
     data = request.data or '{}'
     body = json.loads(data)
-    return jsonify(isFraudTran(body))
+    return jsonify(predict(body))
