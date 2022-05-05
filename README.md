@@ -12,4 +12,25 @@ Data Description
 	The dataset is available to the public, does not include any restriction data, includes 101613 transactions(rows) and ten columns. The dataset is a sample and an excellent example of answering the research question and analyzing the transactions. (Kaggle, 2022)
 
 
+<h3>Acknowledge sources:</h3>
+Shiftprocessing. (Feb. 8, 2022). Fraud Statistics.  [Web Site].  Retrieved from
+https://shiftprocessing.com/credit-card-fraud-statistics/
+
+Kaggle.(Feb. 8, 2022). Fraud Detection Classification. [Web Site]. Retrieved from
+https://www.kaggle.com/arditriana/fraud-detection-classification/data
+
+Massaron, L., & Boschetti, A. (2016). Regression analysis with Python. Packet Publishing. ISBN: 9781785286315
+
+Kite. (2021, June 10). Exploratory Data Analysis (EDA) and Data Visualization with Python. [Web Site].  Retrieved from
+https://www.kite.com/blog/python/data-analysis-visualization-python/
+
+Statology. (2021, June 24). Assumptions of Logistic Regression. [Web Site].  Retrieved from
+https://www.statology.org/assumptions-of-logistic-regression/
+
+ResearchGate. (2022, Feb 12). Convergence Failures in Logistic Regression. [Web Site].  Retrieved from https://www.researchgate.net/publication/228813245_Convergence_Failures_in_Logistic_Regression#:~:text=A%20frequent%20problem%20in%20estimating,estimates%20simply%20do%20not%20exist.
+
+StackExchange. (2022, Feb 12). What correlation makes a matrix singular and the implications of singularity or near-singularity? [Web Site].  Retrieved from
+https://stats.stackexchange.com/questions/70899/what-correlation-makes-a-matrix-singular-and-what-are-implications-of-singularit
+
+StatisticsHowTo. (2022, Feb 12). What Variance Inflation Factor? [Web Site].  Retrieved from https://www.statisticshowto.com/variance-inflation-factor/
 
