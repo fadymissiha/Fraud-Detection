@@ -18,7 +18,7 @@ def create_prediction():
     return jsonify(predict(body))
 
 @application.route('/predictionsRF', methods=['POST'])
-def create_prediction():
+def create_predictionRF():
     data = request.data or '{}'
     body = json.loads(data)
     return jsonify(predictRF(body))
