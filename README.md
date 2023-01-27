@@ -1,6 +1,7 @@
 # Fraud-Detection
 ## Initial Fraud Detection ML model and Flask App to provide service work in the Red Hat OpenShift Cloud Environment.
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7549547.svg)](https://doi.org/10.5281/zenodo.7549547)
+<br/>
 Fraud monitoring and prevention are the most challenging and costly financial businesses. For example, in 2018, $24.26 Billion was lost due to payment card fraud. Banks and financial houses try to reduce fraud by investing much money in software development. The United States leads as the most credit fraud-prone country, with 38.6% of reported card fraud losses in 2018. (Shiftprocessing, 2022)
 Analyzing the features of the transactions using machine learning like the logistic regression model could statistically significantly identify the fraudulent transactions, and the study results could be used as proof of concept to develop applications in the future for fraud monitoring and prevention.
 Newly released Federal Trade Commission data shows that consumers reported losing more than $5.8 billion to fraud in 2021, an increase of more than 70 percent over the previous year.
